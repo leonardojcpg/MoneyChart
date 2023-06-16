@@ -1,0 +1,16 @@
+.header-container{
+    width: 25rem;
+    height: 5.938rem;
+    background-color:coral;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 28.125rem;
+    margin-top: 3.75rem;
+    border-radius: 1rem;
+}
+
+.myBalance h4{
+    margin-top: 10px;
+    display: block;
+}
