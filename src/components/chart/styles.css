@@ -1,7 +1,10 @@
 .chart-container{
     justify-content: center;
+    background-color: #fff;
     display: flex;
-    height: 100vh;
-    margin-right: 10rem;
+    width: 25rem;
+    height: 20rem;
+    margin-left: 25rem;
+    border-radius: 1rem;
     margin-top: 1rem;
 }
