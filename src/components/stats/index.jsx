@@ -1,6 +1,8 @@
 import "./styles.css"
 
-export const ChartStats = () => {
+
+export const ChartStats = () => {  
+
   return (
     <div className="chart-container">
       <div className="mainTitle">
@@ -8,5 +10,7 @@ export const ChartStats = () => {
       </div>
       <div className="chart"></div>
     </div>
+    
   );
 };
+
