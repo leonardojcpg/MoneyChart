@@ -1,0 +1,42 @@
+.footer-container{
+    display: flex;
+    background-color: #fff;
+    border-radius: 2rem;
+    width: 25rem;
+    margin-left: 25rem;
+    height: 2rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    color: #382314;
+}
+.totalMonth h4{
+    margin-left: 1rem;
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+
+.totalMonth span{
+    display: flex;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    padding: 0.25rem;
+    font-weight: bold;
+}
+
+.fromLastMonth span{
+    display: flex;
+    margin-top: 1.25rem;
+    margin-left: 12rem;
+    font-weight: bold;
+}
+
+.fromLastMonth h4{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 8rem;
+    margin-top: 0.25rem;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.95rem;
+}

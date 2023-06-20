@@ -14,6 +14,16 @@ export const Chart = () => {
     chart: {
       id: "basic-bar",
     },
+    title: {
+      text: "Spending - Last 7 days",
+      align: "left",
+      style: {
+        fontFamily: 'DM Sans',
+        fontSize: '20px',
+        fontWeight: "bold",
+        color: "#382314"
+      }
+    },
     xaxis: {
       categories: chartData.map((item) => item.day),
     },
@@ -43,6 +53,7 @@ export const Chart = () => {
 
   return (    
     <div className="chart-container">
+
       <ReactApexChart
         options={options}
         series={options.series}
